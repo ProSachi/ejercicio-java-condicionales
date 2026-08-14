@@ -13,8 +13,6 @@ public class Main {
         System.out.println("Tienes licencia de conducción: Si o No ");
         poseerLicencia = leer.next().toLowerCase();
 
-
-
         if (edadUsuario >= EDAD && poseerLicencia =="si") {
             System.out.println("Puede conducir");
         } else {
